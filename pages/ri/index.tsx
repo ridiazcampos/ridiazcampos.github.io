@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
-import Card from "../components/Elements/Card";
+import Card from "../../components/Elements/card";
 import { RiPlantFill } from "react-icons/ri";
 
-const Home: NextPage = () => {
+const Music: NextPage = () => {
   return (
     <div>
       <Card Icon={RiPlantFill} title={"Ri"} description={"ñlkjñlkñj"} />
@@ -10,4 +10,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default Music;

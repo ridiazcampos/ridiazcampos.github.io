@@ -5,8 +5,8 @@ import "../styles/globals.css";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className="flex w-full h-full">
-      <div className="w-full">
-        <Header />
+      <Header />
+      <div className="w-full p-6">
         <Component {...pageProps} />
       </div>
     </div>
